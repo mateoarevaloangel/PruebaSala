@@ -29,7 +29,7 @@ AS
 BEGIN;
 INSERT INTO Sala (Nombre, Descripcion, Capacidad) VALUES (@Nombre, @Descripcion,@Capacidad);
 END;
-ALTER PROCEDURE AddReserva @Nombre nvarchar(30), @Fecha date,@SalaID int
+Create PROCEDURE AddReserva @Nombre nvarchar(30), @Fecha date,@SalaID int
 AS
 BEGIN;
 INSERT INTO Reservacion (Nombre, Fecha, SalaID) VALUES (@Nombre, @Fecha,@SalaID)
