@@ -12,7 +12,7 @@ CREATE TABLE Sala
       Fecha Date,
 	  SalaID int FOREIGN KEY REFERENCES Sala(ID)
    )
-alter PROCEDURE SelectAllReservas
+CREATE PROCEDURE SelectAllReservas
 AS
 BEGIN;
 SELECT Reservacion.ID, Reservacion.Nombre, Reservacion.Fecha,Sala.Nombre as NombreSala
@@ -44,12 +44,12 @@ SELECT s.*
                                     WHERE Fecha = @Fecha 
                                           )
 END;
-CREATE PROCEDURE UpdateReserva @Nombre nvarchar(30), @Fecha date,@SalaID int
+CREATE PROCEDURE UpdateReserva @Nombre nvarchar(30), @Fecha date,@SalaID int, @ID int
 AS
 BEGIN;
 UPDATE Reservacion
-SET Nombre = @Nombre, Fecha= @Fecha
-WHERE SalaID = @SalaID;
+SET Nombre = @Nombre, Fecha= @Fecha, SalaID = @SalaID
+WHERE ID = @ID;
 END;
 CREATE PROCEDURE SelectByIDReservas @ID int
 AS
