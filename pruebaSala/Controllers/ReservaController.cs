@@ -114,7 +114,9 @@ namespace pruebaSala.Controllers
         // GET: Reserva/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            //return View();
+            reservaRepository.DeleteReserva(id);
+            return RedirectToAction("Index");
         }
 
         // POST: Reserva/Delete/5

@@ -51,7 +51,21 @@ namespace pruebaSala.Repository.Service
 
         public void DeleteReserva(int ReservaId)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            string insertQuery = @"EXEC DeleteReserva @ID;";
+            try
+            {
+                // TODO: Add insert logic here
+                var result = _connection.Execute(insertQuery, new
+                {
+                    ID=ReservaId
+                });
+            }
+            catch
+            {
+                throw new NotImplementedException();
+            }
+
         }
 
         public Reserva GetReserva(int reserva)

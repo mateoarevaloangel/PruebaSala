@@ -77,7 +77,8 @@ namespace pruebaSala.Controllers
         // GET: Sala/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            //return View();
+            return RedirectToAction("Index");
         }
 
         // POST: Sala/Delete/5
