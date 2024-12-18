@@ -23,7 +23,7 @@ namespace pruebaSala.Controllers
         // GET: Reserva
         public ActionResult Index()
         {
-            ViewBag.mensaje = "cargar1";
+            ViewBag.mensaje = "cargar salas disponibles";
             ViewBag.Reserva = reservaRepository.GetReservas();
             return View();
         }
@@ -37,7 +37,8 @@ namespace pruebaSala.Controllers
         // GET: Reserva/Create
         public ActionResult Create()
         {
-            ViewBag.mensaje = "ver disponibilidad";
+            ViewBag.mensaje = "cargar salas disponibles";
+            ViewBag.salas = new List<Sala>();
             return View();
         }
 
@@ -51,8 +52,18 @@ namespace pruebaSala.Controllers
                 // TODO: Add insert logic here
                 //Validar disponibilidad de la sala
                 //ViewBag.Reserva = reservaRepository.AddReserva(reserva);
-                ViewBag.mensaje = "cargar2";
-                //return RedirectToAction("Index");
+                if (reserva.SalaID == 0)
+                {
+                    ViewBag.mensaje = "enviar";
+                    //return RedirectToAction("Index");
+                    ViewBag.salas = reservaRepository.GetSalasDisponibles(reserva);
+                    return View();
+                }
+                else {
+                    ViewBag.Reserva = reservaRepository.AddReserva(reserva);
+                    return RedirectToAction("Index");
+                }
+                
                 return View();
             }
             catch

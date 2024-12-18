@@ -11,6 +11,7 @@ namespace pruebaSala.Repository.Interface
     {
         IEnumerable<ReservaDTO> GetReservas();
         Task<ReservaDTO> GetReserva(int reserva);
+        IEnumerable<Sala> GetSalasDisponibles(Reserva reserva);
         Reserva AddReserva(Reserva reserva);
         Task<ReservaDTO> UpdateReserva(Reserva reserva);
         void DeleteReserva(int ReservaId);

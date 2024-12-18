@@ -3,6 +3,7 @@ using pruebaSala.Models;
 using pruebaSala.Repository.Interface;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
@@ -62,6 +63,21 @@ namespace pruebaSala.Repository.Service
             var queryReservaciones = "EXEC SelectAllReservas;";
             return _connection.Query<ReservaDTO>(queryReservaciones);
             
+        }
+        public IEnumerable<Sala> GetSalasDisponibles(Reserva reserva)
+        {
+            /*var queryReservaciones = "EXEC DisponibilidadReserva @Nombre, @Fecha;";
+            var result = _connection.Execute(queryReservaciones, new
+            {
+                reserva.Nombre,
+                reserva.Fecha,
+                reserva.SalaID
+            });*/
+            var storedProcedureName = "DisponibilidadReserva";
+            var values = new { Nombre = reserva.Nombre, Fecha = reserva.Fecha };
+            var results = _connection.Query<Sala>(storedProcedureName, values, commandType: CommandType.StoredProcedure).ToList();
+            return results;//_connection.Query<Sala>(queryReservaciones);
+
         }
 
         public Task<ReservaDTO> UpdateReserva(Reserva reserva)
