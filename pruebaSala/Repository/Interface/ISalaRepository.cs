@@ -10,9 +10,9 @@ namespace pruebaSala.Repository.Interface
     internal interface ISalaRepository
     {
         IEnumerable<Sala> GetSalas();
-        Task<Sala> GetSala(int salaID);
+        Sala GetSala(int salaID);
         Sala AddSala(Sala sala);
-        Task<Sala> UpdateSala(Sala sala);
+        Sala UpdateSala(Sala sala);
         void DeleteSala(int salaID);
     }
 }

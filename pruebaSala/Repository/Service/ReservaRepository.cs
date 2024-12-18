@@ -7,6 +7,7 @@ using System.Collections.ObjectModel;
 using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
+using System.IdentityModel.Tokens;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
@@ -53,9 +54,12 @@ namespace pruebaSala.Repository.Service
             throw new NotImplementedException();
         }
 
-        public Task<ReservaDTO> GetReserva(int reserva)
+        public Reserva GetReserva(int reserva)
         {
-            throw new NotImplementedException();
+            var storedProcedureName = "SelectByIDReservas";
+            var values = new { ID = reserva };
+            var results = _connection.Query<Reserva>(storedProcedureName, values, commandType: CommandType.StoredProcedure).ToList();
+            return results[0];
         }
 
         public IEnumerable<ReservaDTO> GetReservas()
@@ -66,22 +70,33 @@ namespace pruebaSala.Repository.Service
         }
         public IEnumerable<Sala> GetSalasDisponibles(Reserva reserva)
         {
-            /*var queryReservaciones = "EXEC DisponibilidadReserva @Nombre, @Fecha;";
-            var result = _connection.Execute(queryReservaciones, new
-            {
-                reserva.Nombre,
-                reserva.Fecha,
-                reserva.SalaID
-            });*/
             var storedProcedureName = "DisponibilidadReserva";
             var values = new { Nombre = reserva.Nombre, Fecha = reserva.Fecha };
             var results = _connection.Query<Sala>(storedProcedureName, values, commandType: CommandType.StoredProcedure).ToList();
-            return results;//_connection.Query<Sala>(queryReservaciones);
+            return results;
 
         }
 
-        public Task<ReservaDTO> UpdateReserva(Reserva reserva)
+        public Reserva UpdateReserva(Reserva reserva)
         {
+            string insertQuery = @"EXEC UpdateReserva @Nombre, @Fecha, @SalaID, @ID;";
+            try
+            {
+                // TODO: Add insert logic here
+                var result = _connection.Execute(insertQuery, new
+                {
+                    reserva.Nombre,
+                    reserva.Fecha,
+                    reserva.SalaID,
+                    reserva.Id
+                });
+                return reserva;
+            }
+            catch
+            {
+                throw new NotImplementedException();
+            }
+
             throw new NotImplementedException();
         }
     }

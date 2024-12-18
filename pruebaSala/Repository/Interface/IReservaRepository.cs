@@ -10,10 +10,10 @@ namespace pruebaSala.Repository.Interface
     public interface IReservaRepository
     {
         IEnumerable<ReservaDTO> GetReservas();
-        Task<ReservaDTO> GetReserva(int reserva);
+        Reserva GetReserva(int reserva);
         IEnumerable<Sala> GetSalasDisponibles(Reserva reserva);
         Reserva AddReserva(Reserva reserva);
-        Task<ReservaDTO> UpdateReserva(Reserva reserva);
+        Reserva UpdateReserva(Reserva reserva);
         void DeleteReserva(int ReservaId);
     }
 }

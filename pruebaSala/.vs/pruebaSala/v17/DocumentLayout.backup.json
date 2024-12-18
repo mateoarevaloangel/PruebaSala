@@ -3,48 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\views\\reserva\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:views\\reserva\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|c:\\users\\danie\\onedrive\\documentos\\dev\\github\\pruebasala\\pruebasala\\repository\\service\\reservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:repository\\service\\reservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\views\\reserva\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:views\\reserva\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|c:\\users\\danie\\onedrive\\documentos\\dev\\github\\pruebasala\\pruebasala\\views\\reserva\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:views\\reserva\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|c:\\users\\danie\\onedrive\\documentos\\dev\\github\\pruebasala\\pruebasala\\repository\\service\\reservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:repository\\service\\reservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\controllers\\salacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:controllers\\salacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\views\\sala\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:views\\sala\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\views\\reserva\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:views\\reserva\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\repository\\interface\\ireservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:repository\\interface\\ireservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\views\\sala\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:views\\sala\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\models\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:models\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|c:\\users\\danie\\onedrive\\documentos\\dev\\github\\pruebasala\\pruebasala\\views\\sala\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:views\\sala\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\views\\reserva\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:views\\reserva\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\repository\\service\\salarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:repository\\service\\salarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\controllers\\salacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:controllers\\salacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\views\\sala\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:views\\sala\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\views\\sala\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:views\\sala\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\repository\\interface\\isalarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\models\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|solutionrelative:models\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0C2950F-DC73-4879-A67E-8C7AEFF7F658}|pruebaSala.csproj|C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,71 +114,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReservaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Repository\\Service\\ReservaRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Service\\ReservaRepository.cs",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Repository\\Service\\ReservaRepository.cs",
-              "RelativeToolTip": "Repository\\Service\\ReservaRepository.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAjwEIAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T20:29:21.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "SalaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Repository\\Service\\SalaRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Service\\SalaRepository.cs",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Repository\\Service\\SalaRepository.cs",
-              "RelativeToolTip": "Repository\\Service\\SalaRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T21:52:58.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "SalaController.cs",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Controllers\\SalaController.cs",
               "RelativeDocumentMoniker": "Controllers\\SalaController.cs",
               "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Controllers\\SalaController.cs",
               "RelativeToolTip": "Controllers\\SalaController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwDgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T21:57:01.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ISalaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Repository\\Interface\\ISalaRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Interface\\ISalaRepository.cs",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Repository\\Interface\\ISalaRepository.cs",
-              "RelativeToolTip": "Repository\\Interface\\ISalaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T21:50:33.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Views\\Reserva\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Reserva\\Create.cshtml",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Views\\Reserva\\Create.cshtml*",
-              "RelativeToolTip": "Views\\Reserva\\Create.cshtml*",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAAC4AAAAvAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Views\\Reserva\\Create.cshtml",
+              "RelativeToolTip": "Views\\Reserva\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-17T18:41:54.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Views\\Sala\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Sala\\Create.cshtml",
@@ -182,11 +148,12 @@
               "RelativeToolTip": "Views\\Sala\\Create.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T22:19:47.693Z"
+              "WhenOpened": "2024-12-17T22:19:47.693Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Views\\Reserva\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Reserva\\Index.cshtml",
@@ -194,29 +161,31 @@
               "RelativeToolTip": "Views\\Reserva\\Index.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T18:18:02.856Z"
+              "WhenOpened": "2024-12-17T18:18:02.856Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "IReservaRepository.cs",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Repository\\Interface\\IReservaRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Interface\\IReservaRepository.cs",
               "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Repository\\Interface\\IReservaRepository.cs",
               "RelativeToolTip": "Repository\\Interface\\IReservaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T21:50:54.935Z"
+              "WhenOpened": "2024-12-17T21:50:54.935Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Reserva.cs",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Models\\Reserva.cs",
               "RelativeDocumentMoniker": "Models\\Reserva.cs",
               "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Models\\Reserva.cs",
               "RelativeToolTip": "Models\\Reserva.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T18:10:40.982Z",
               "EditorCaption": ""
@@ -229,14 +198,79 @@
               "RelativeDocumentMoniker": "Controllers\\ReservaController.cs",
               "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Controllers\\ReservaController.cs",
               "RelativeToolTip": "Controllers\\ReservaController.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAewC8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAIA3wGUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T17:18:40.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReservaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Models\\ReservaDTO.cs",
+              "RelativeDocumentMoniker": "Models\\ReservaDTO.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Models\\ReservaDTO.cs",
+              "RelativeToolTip": "Models\\ReservaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T20:15:22.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReservaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Repository\\Service\\ReservaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Service\\ReservaRepository.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Repository\\Service\\ReservaRepository.cs",
+              "RelativeToolTip": "Repository\\Service\\ReservaRepository.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAWwFwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T20:29:21.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Views\\Reserva\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reserva\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Views\\Reserva\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Reserva\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T13:56:00.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "SalaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Repository\\Service\\SalaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Service\\SalaRepository.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Repository\\Service\\SalaRepository.cs",
+              "RelativeToolTip": "Repository\\Service\\SalaRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T21:52:58.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Views\\Sala\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sala\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Views\\Sala\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Sala\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T13:41:32.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Views\\Sala\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Sala\\Index.cshtml",
@@ -244,23 +278,25 @@
               "RelativeToolTip": "Views\\Sala\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T21:58:46.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T18:09:37.025Z"
+              "WhenOpened": "2024-12-17T21:58:46.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "ISalaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Repository\\Interface\\ISalaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interface\\ISalaRepository.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Repository\\Interface\\ISalaRepository.cs",
+              "RelativeToolTip": "Repository\\Interface\\ISalaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T21:50:33.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -272,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\packages.config",
               "RelativeDocumentMoniker": "packages.config",
@@ -285,18 +321,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ReservaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Models\\ReservaDTO.cs",
-              "RelativeDocumentMoniker": "Models\\ReservaDTO.cs",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Models\\ReservaDTO.cs",
-              "RelativeToolTip": "Models\\ReservaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T20:15:22.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Sala.cs",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Models\\Sala.cs",
               "RelativeDocumentMoniker": "Models\\Sala.cs",
@@ -308,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
@@ -320,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "FilterConfig.cs",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\App_Start\\FilterConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\FilterConfig.cs",
@@ -332,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "BundleConfig.cs",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\App_Start\\BundleConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\BundleConfig.cs",
@@ -344,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Web.config",
               "RelativeDocumentMoniker": "Web.config",
@@ -357,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Global.asax.cs",
               "RelativeDocumentMoniker": "Global.asax.cs",
@@ -369,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -381,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\dev\\GitHub\\PruebaSala\\pruebaSala\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",

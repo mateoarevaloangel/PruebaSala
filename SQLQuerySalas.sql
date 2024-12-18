@@ -44,3 +44,22 @@ SELECT s.*
                                     WHERE Fecha = @Fecha 
                                           )
 END;
+CREATE PROCEDURE UpdateReserva @Nombre nvarchar(30), @Fecha date,@SalaID int
+AS
+BEGIN;
+UPDATE Reservacion
+SET Nombre = @Nombre, Fecha= @Fecha
+WHERE SalaID = @SalaID;
+END;
+CREATE PROCEDURE SelectByIDReservas @ID int
+AS
+BEGIN;
+SELECT Reservacion.ID, Reservacion.Nombre, Reservacion.Fecha,Sala.Nombre as NombreSala
+FROM Reservacion
+INNER JOIN Sala ON Reservacion.SalaID = Sala.ID WHERE Reservacion.ID=@ID;
+END;
+CREATE PROCEDURE SelectByIDSalas @ID int
+AS
+BEGIN;
+SELECT * FROM Sala WHERE ID=@ID
+END;

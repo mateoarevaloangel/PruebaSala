@@ -55,17 +55,17 @@ namespace pruebaSala.Controllers
         // GET: Sala/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            return View(salaRepository.GetSala(id));
         }
 
         // POST: Sala/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(int id, Sala sala)
         {
             try
             {
                 // TODO: Add update logic here
-
+                ViewBag.Reserva = salaRepository.UpdateSala(sala);
                 return RedirectToAction("Index");
             }
             catch

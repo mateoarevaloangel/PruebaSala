@@ -48,9 +48,12 @@ namespace pruebaSala.Repository.Service
             throw new NotImplementedException();
         }
 
-        public Task<Sala> GetSala(int salaID)
+        public Sala GetSala(int salaID)
         {
-            throw new NotImplementedException();
+            var storedProcedureName = "SelectByIDSalas";
+            var values = new { ID = salaID };
+            var results = _connection.Query<Sala>(storedProcedureName, values, commandType: CommandType.StoredProcedure).ToList();
+            return results[0];
         }
 
         public IEnumerable<Sala> GetSalas()
@@ -59,8 +62,26 @@ namespace pruebaSala.Repository.Service
             return _connection.Query<Sala>(queryReservaciones);
         }
 
-        public Task<Sala> UpdateSala(Sala sala)
+        public Sala UpdateSala(Sala sala)
         {
+            string insertQuery = @"EXEC UpdateSala @Nombre, @Descripcion,@Capacidad, @ID;";
+            try
+            {
+                // TODO: Add insert logic here
+                var result = _connection.Execute(insertQuery, new
+                {
+                    sala.Nombre,
+                    sala.Descripcion,
+                    sala.Capacidad,
+                    sala.ID
+                });
+                return sala;
+            }
+            catch
+            {
+                throw new NotImplementedException();
+            }
+
             throw new NotImplementedException();
         }
     }

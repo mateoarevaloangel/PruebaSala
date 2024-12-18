@@ -71,39 +71,39 @@ namespace pruebaSala.Controllers
                 return View();
             }
         }
-        // POST: Reserva/Create
-        [HttpPost]
-        public ActionResult Disponibilidad(Reserva reserva)//(FormCollection collection)
-        {
-
-            try
-            {
-                // TODO: Add insert logic here
-                ViewBag.Reserva = reservaRepository.AddReserva(reserva);
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        
 
         // GET: Reserva/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            ViewBag.mensaje = "cargar salas disponibles";
+            ViewBag.salas = new List<Sala>();
+            var result = reservaRepository.GetReserva(id);
+            return View(result);
         }
 
         // POST: Reserva/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(int id, Reserva reserva)
         {
             try
             {
                 // TODO: Add update logic here
 
-                return RedirectToAction("Index");
+                if (reserva.SalaID == 0)
+                {
+                    ViewBag.mensaje = "enviar";
+                    //return RedirectToAction("Index");
+                    ViewBag.salas = reservaRepository.GetSalasDisponibles(reserva);
+                    return View();
+                }
+                else
+                {
+                    ViewBag.Reserva = reservaRepository.UpdateReserva(reserva);
+                    return RedirectToAction("Index");
+                }
+
+                return View();
             }
             catch
             {
