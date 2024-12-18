@@ -34,7 +34,7 @@ AS
 BEGIN;
 INSERT INTO Reservacion (Nombre, Fecha, SalaID) VALUES (@Nombre, @Fecha,@SalaID)
 END;
-CREATE PROCEDURE DisponibilidadReserva @Nombre nvarchar(30), @Fecha date,@SalaID int
+CREATE PROCEDURE DisponibilidadReserva @Nombre nvarchar(30), @Fecha date 
 AS
 BEGIN;
 SELECT s.*
@@ -42,5 +42,5 @@ SELECT s.*
        WHERE s.ID NOT IN (SELECT SalaID
                                     FROM Reservacion
                                     WHERE Fecha = @Fecha 
-                                          AND SalaID = @SalaID)
+                                          )
 END;
